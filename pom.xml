@@ -495,8 +495,7 @@
             </reporting>
         </profile>
     </profiles>
-</project>
-<distributionManagement>
+	<distributionManagement>
 	    <repository>
 	      <id>nexus</id>
 	      <name>maven-releases</name>
@@ -508,3 +507,5 @@
 	      <url>http://localhost:8081/repository/maven-snapshots/</url>
 	    </snapshotRepository>
 	</distributionManagement>
+</project>
+
